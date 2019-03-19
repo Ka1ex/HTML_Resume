@@ -1,0 +1,136 @@
+body{
+background: url(background2.png) no-repeat center center fixed;
+background-size: cover;
+background-attachment: fixed;
+font-family: Tahoma, Geneva, sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+#container{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+#introduction{
+	
+	text-align: center;
+	font-style: italic;
+	color: #66ffff;
+	background: url(Background.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+	h6{
+	font-size: 10px;
+	padding-bottom: 0px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		text-decoration: underline;
+		font-size: 27px;
+		color: #45;
+		text-align: center;
+	}
+#overview{
+	text-align: center;
+	border-bottom: 3px solid blue;
+	color: #66ffff;
+}
+
+.list1{
+		list-style-type: none;
+}
+
+#experience{
+	border-bottom: 3px solid blue;
+	color: white;
+
+	
+}
+#bottombase{
+	padding-top: 50px;
+	padding-bottom: 350px;
+	border-bottom: 3px solid blue;
+	margin-bottom: 40px;
+	/* this isn't the best way probably the to get the border bottom to clear bootom if educaation and certs*/
+}
+
+.exp{
+	border-bottom: 3px solid blue;
+	border-top: 3px solid red;
+	border-right: 1px solid yellow;
+	border-left: 1px  solid yellow;
+	width: 350px;
+	height: 300px;
+	background-color: #ffffff1a;
+	color: #bb33dd;
+	padding: 4px;
+
+
+
+}
+#education{
+	
+	
+	float: left;
+
+	font-size: 16px;
+
+}
+
+#certs{
+	
+	float: right; 
+	
+}
+
+#personality{
+	padding-top: 100px;
+	border-bottom: 3px solid blue;
+	margin-bottom: 40px;
+	
+}
+
+#ptypevid{
+	float: left;
+	float: clear;
+	
+}
+
+#ptypetext{
+	color: deepskyblue;
+	float: right;
+	width: 350px;
+	
+	margin-top: 0px;
+}
+
+#ptypechart{
+	background-color: #ffff991a;
+	color: #66ffff;
+	float: right;
+	float: clear;
+}
+
+.table{
+		border: none;
+		max-width: 350px;
+		max-height: 300px;
+}
+.box-img{
+	border-radius: 50%;
+	max-height: 115px;
+	max-width: 115px;
+	margin:auto;
+}
+.pers{
+	width: 350;
+	height: 350;
+}
